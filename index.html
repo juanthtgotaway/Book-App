@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Book Years</title>
+</head>
+
+
+<body>
+    <Header class="banner hero-body">
+        <h1 class="title is-1 has-text-centered">Book Years</h1>
+        <p class="subtitle is-5 has-text-centered">Discover Books, Unleash Stories!</p>
+    </Header>
+
+
+    <section id="body-container">
+        <div class="columns">
+            <div class="search-container">
+                <div class="column is-5">
+                    <div id="title class="py-4 mx-3">
+                        <input id="titleSearch" type="text" name="genre-search" placeholder="Book Title" class="row is-full mr-3">
+                        <button class="button is-rounded is-normal is-hovered" id="searchBtn-1" type="submit">Search</button>
+                        <!---some box elements will go here for the search boxes-->
+                    </div>
+                </div>
+            </div>
+            <div class="result-container">
+                <div class=column is-7">
+                    <div id="results">
+                        <div id="authors"></div>
+                        <div id="rsltcont"></div>
+                        <div id="book-info"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <!-- Footer if we want to add something here-->
+    </footer>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script type="text/javascript" src="https://www.google.com/books/jsapi.js"></script>
+    <script src="./script.js"></script>
+    <!-- this is referencing my JS file. -->
+
+</body>
+
+</html>

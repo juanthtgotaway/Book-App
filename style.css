@@ -1,0 +1,78 @@
+:root {
+    --backclr: #F2F2F2;
+    --textclr: #0D0D0D;
+    --btnclr: #F2D377;
+    --btnhvr: #f3cf62;
+    --txtboxclr: #dfdfdf; 
+}
+
+body {
+    background-color: var(--backclr);
+    font-size: 16px;
+    height: 100vh;
+}
+
+.button {
+    background-color: var(--btnclr);
+    margin: 5%;
+    /* box-shadow: 4px 3px 4px 0px black; */
+}
+
+.search-container {
+    padding: 1%;
+}
+
+.result-container{
+    /* background-color: var(--txtboxclr); */
+}
+
+.button:hover {
+    background-color: var(--btnhvr);
+    transform: scale(1.05);
+    box-shadow: 4px 3px 4px 0px black;
+
+}
+
+#titleSearch {
+    background-color: var(--txtboxclr);
+    padding: 1%;
+    margin: 5%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#titleSearch:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 3px 4px 0px black;
+}
+
+.book h4 {
+    /* font-weight: bold; */
+    padding: 1%;
+    font-size: 30px;
+}
+
+.book h6 {
+    padding: 1%;
+    font-size: 20px;
+}
+
+.book p {
+    padding: 1%;
+    font-size: 16px;
+}
+
+#authors {
+    font-size: 30px;
+    padding: 1%;
+}
+
+#rsltcont {
+    font-size: 20px;
+    padding: 1%;
+}
+
+#book-info {
+    font-size: 16px;
+    padding: 1%;
+}
