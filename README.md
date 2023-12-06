@@ -6,7 +6,7 @@ https://juanthtgotaway.github.io/Book-App/
 
 
 ## Description: 
-Our desktop book app is designed to allow users to search the title of any book and get the book description, author, and a link to Google Books to preview the book. This app uses the Google Books API for the description, author, and Google Book link. Then uses the Open Library API for the titles. For styling, we used a CSS framework called Bulma.However along the way there were obstacles that as a team we had to over come some of those are as follows:
+Our desktop book app is designed to allow users to search the title of any book and get the book description, author, and a link to Google Books to preview the book. This app uses the Google Books API for the description, author, and Google Book link. Then uses the Open Library API for the titles. For styling, we used a CSS framework called Bulma. My team memebers consisted of 2 other people James and Corey. James was in charge of the LOC api and then the Open Library API Corey was in charge of the git hub repo and took over the Book APi ans was the main organizer of the group. However along the way there were obstacles that as a team we had to over come some of those are as follows:
 
 <br>
 
@@ -14,7 +14,7 @@ Our desktop book app is designed to allow users to search the title of any book 
 <br>
 
 
-**Pivoting is essential:** This project was very much a test to see how we could overcome certain obstacles. I was in charge of the CSS, and HTML. I had the CSS all ready with styles and groups dynamically made that worked with google apis that was the last part of the call which needed the LOC (library of congress) to pull the first part of data. However, after the LOC api wouldnt work we had to scrap all that and redo the layout for the API that would work. We decided to lower the search displays to only one: book title. From the 4 we originally had selected. 
+**Pivoting is essential:** This project was very much a test to see how we could overcome certain obstacles. I was in charge of the CSS, and HTML. I had the CSS all ready with styles and groups dynamically made that worked with google apis that was the last part of the call which needed the LOC (library of congress) to pull the first part of data. However, after the LOC api wouldnt work we had to scrap all that and redo the layout for the API that would work. James found one a day prior to our deadline and him and corey teamed up to figure out how to make it so that we could retreive that info. We decided to lower the search displays to only one: book title. From the 4 we originally had selected. 
 
 <br>
 
