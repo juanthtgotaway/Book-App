@@ -12,6 +12,21 @@ body {
     height: 100vh;
 }
 
+header {
+
+    background-color: #697f93;
+}
+
+.title {
+    color: #fff;
+}
+
+.subtitle {
+
+    color: wheat;
+}
+
+
 .button {
     background-color: var(--btnclr);
     margin: 5%;
@@ -20,10 +35,19 @@ body {
 
 .search-container {
     padding: 1%;
+    margin-top: 25px;
+    margin-left: 15px;
 }
 
-.result-container{
-    /* background-color: var(--txtboxclr); */
+/*.result-container{
+    /* background-color: var(--txtboxclr); 
+}*/
+
+
+.button{
+
+    background-color: wheat;
+    margin-left: 50px;
 }
 
 .button:hover {
